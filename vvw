@@ -1,3 +1,6 @@
+if Menu and Menu.Unload then
+    Menu:Unload()
+end
 
 local StatisticsService = game:GetService("Stats")
 local PlayerService = game:GetService("Players")
